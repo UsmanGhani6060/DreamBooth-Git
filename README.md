@@ -31,6 +31,13 @@ pip install -r requirements.txt
 ```
 ## Run
 
+###download the model
+
+# model drive link
+"https://drive.google.com/file/d/1X76rfpFhArujXNx6j0b3WJhmpli0baQ5/view?usp=drive_link"
+
+replace repo_id to the path of the above downloaded model
+
 #### To run API deployment on server:
 ```
 uvicorn app:app --reload
