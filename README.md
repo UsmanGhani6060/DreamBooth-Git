@@ -36,7 +36,7 @@ pip install -r requirements.txt
 # model drive link
 "https://drive.google.com/file/d/1X76rfpFhArujXNx6j0b3WJhmpli0baQ5/view?usp=drive_link"
 
-replace repo_id to the path of the above downloaded model
+replace "repo_id" in the app.py file to the path of the above downloaded model
 
 #### To run API deployment on server:
 ```
