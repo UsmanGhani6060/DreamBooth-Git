@@ -20,7 +20,7 @@ logger = logging.getLogger("music-gen-aws")
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 # Load the model and processor
-repo_id = "/home/ubuntu/musicgen-dreamboothing/musicgen-melody-lora-punk-batch3"
+repo_id = "model path here"
 model = AutoModelForTextToWaveform.from_pretrained(repo_id, torch_dtype=torch.float16).to(device)
 processor = AutoProcessor.from_pretrained(repo_id)
 
