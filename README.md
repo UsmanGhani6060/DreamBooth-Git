@@ -34,7 +34,9 @@ pip install -r requirements.txt
 ###download the model
 
 # model drive link
-"https://drive.google.com/file/d/1X76rfpFhArujXNx6j0b3WJhmpli0baQ5/view?usp=drive_link"
+
+pip install gdown
+gdown --folder https://drive.google.com/file/d/1X76rfpFhArujXNx6j0b3WJhmpli0baQ5/view?usp=drive_link
 
 replace "repo_id" in the app.py file to the path of the above downloaded model
 
