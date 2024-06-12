@@ -22,7 +22,7 @@ cd DreamBooth-Git
 #### Creating Virtual Enviromrnt :
 ```
 pip install virtualenv
-python3.9 -m venv music-gen-dreambooth
+python3.10 -m venv music-gen-dreambooth
 source music-gen-dreambooth/bin/activate
 ```
 #### Installing requirements and dependencies:
