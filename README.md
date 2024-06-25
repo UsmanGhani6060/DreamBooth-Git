@@ -57,7 +57,7 @@ After deployment, IP Address of corresponding server will be used for further te
 #### Input example in JSON file/text:
 ```
 {
-  "prompt" : ["indian traditional"],
+  "style" : ["indian traditional"],
   "time" : [15]
 }
 ```
