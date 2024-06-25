@@ -34,10 +34,12 @@ pip install -r requirements.txt
 ###download the model
 
 # model drive link
-
+```
 pip install gdown
+```
+```
 gdown --folder [https://drive.google.com/file/d/1X76rfpFhArujXNx6j0b3WJhmpli0baQ5/view?usp=drive_link](https://drive.google.com/drive/folders/1lQzBXrre1gTPW6YiPBXw38htRSGoKcQx?usp=drive_link)
-
+```
 replace "repo_id" in the app.py file to the path of the above downloaded model
 
 #### To run API deployment on server:
